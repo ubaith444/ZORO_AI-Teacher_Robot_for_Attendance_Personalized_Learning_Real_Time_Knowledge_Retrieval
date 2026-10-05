@@ -1,4 +1,5 @@
-# ZORO - AI-Enabled Intelligent Teacher Robot
+# ZORO : AI Teacher Robot for Attendance, Personalized Learning & Real-Time Knowledge Retrieval
+
 
 An autonomous, AI-enabled intelligent teacher robot engineered for real-world classroom deployment. The system combines automated facial recognition attendance, voice-based student dialogue, local large language model reasoning, multimodal Hybrid Retrieval-Augmented Generation (RAG), personalized student learning adaptation, continuous RAG quality evaluation, and Raspberry Pi edge robotics hardware control.
 
