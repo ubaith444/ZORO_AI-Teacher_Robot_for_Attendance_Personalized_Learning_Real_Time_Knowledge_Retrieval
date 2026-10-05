@@ -1,0 +1,28 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.h5
+*.log
+
+# Data & Storage
+data/
+qdrant_storage/
+*.db
+*.sqlite3
+
+# Node & Build artifacts
+node_modules/
+dist/
+.vite/
+.oxlintrc.json
+
+# Environment
+.env
+.DS_Store
+Thumbs.db
