@@ -109,7 +109,7 @@ The following structured breakdown explains **what** each component is and **why
 | **Build Tool** | **Vite 8** | Frontend development server and production bundler. | Sub-second Hot Module Replacement (HMR) and optimized Rollup production bundling. |
 | **CSS & Design** | **Tailwind CSS 4** | Responsive styling for dark/light dashboard views. | Rapid utility-first styling with minimal production stylesheet footprint and clean design tokens. |
 | **Icons** | **Lucide React** | Consistent SVG icons for UI navigation and status badges. | Lightweight vector icon set without external bloat or non-standard symbols. |
-| **Edge Hardware** | **Raspberry Pi 5 / Pi 2** | Hardware host for robotics, camera, microphone, speaker, and motor drivers. | Dedicated 40-pin GPIO header for motor control and camera/audio peripheral support. |
+| **Edge Hardware** | **Raspberry Pi 2** | Hardware host for robotics, camera, microphone, speaker, and motor drivers. | Dedicated 40-pin GPIO header for motor control and camera/audio peripheral support. |
 
 ---
 
@@ -326,7 +326,7 @@ This automatically boots:
 
 The robot can operate in two hardware modes:
 
-### Mode A: Distributed Edge Node (Raspberry Pi 2 / 3 / 4)
+### Mode A: Distributed Edge Node (Raspberry Pi 2)
 The Raspberry Pi handles sensors and motor control, while your PC/workstation handles heavy AI inference:
 1. Connect to the Pi via PuTTY SSH:
    ```bash
@@ -353,8 +353,8 @@ The Raspberry Pi handles sensors and motor control, while your PC/workstation ha
    asyncio.run(run())
    ```
 
-### Mode B: Standalone Robot Host (Raspberry Pi 5 - 8GB)
-A Raspberry Pi 5 runs both backend and frontend directly onboard:
+### Mode B: Standalone Robot Host (Raspberry Pi 2 - 8GB)
+A Raspberry Pi 2 runs both backend and frontend directly onboard:
 ```bash
 python start_servers.py
 ```
